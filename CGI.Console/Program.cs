@@ -6,9 +6,18 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        Program p = new Program();
+
+        #region Pregunta # 12
+
+        string nuevaCadena = p.MostrarCadenaAlreves("abcdefg");
+        Console.WriteLine(nuevaCadena);
+
+        #endregion
+
         #region Pregunta # 15
         /*
-        Program p = new Program();
+        
         triangulo triangulo = new triangulo();
 
         triangulo.altura = 10;
@@ -23,7 +32,7 @@ internal class Program
         #endregion
 
         #region Pregunta # 17
-
+        /*
         Persona usuario = new Persona
         {
             Nombre = "Giovanni García",
@@ -33,7 +42,7 @@ internal class Program
         usuario.CambiaNombre();
         Console.WriteLine($"{usuario.Nombre}");
         Console.WriteLine($"{usuario.Calcula()}");
-
+        */
         #endregion
 
     }
@@ -62,4 +71,15 @@ internal class Program
         return sum;
     }
     #endregion
+
+    #region Pregunta 12
+    string MostrarCadenaAlreves(string cadena)
+    {
+        string nuevaCadena = string.Empty;
+        for (int i = 0; i < cadena.Length; i++)
+            nuevaCadena += cadena[cadena.Length - i - 1];
+        return nuevaCadena;
+    }
+    #endregion
+
 }
