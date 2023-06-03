@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CGI.Console", "CGI.Console\CGI.Console.csproj", "{A06FB8C8-560F-4514-BCE3-80F5EDF4638F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CGI.Web", "CGI.Web\CGI.Web.csproj", "{F7F98E9E-E425-4F9B-BCB7-D26F0BE4C0A1}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CGI.Database", "CGI.Database\CGI.Database.sqlproj", "{35748697-140E-4618-B858-82B686FFE3F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{A06FB8C8-560F-4514-BCE3-80F5EDF4638F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A06FB8C8-560F-4514-BCE3-80F5EDF4638F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A06FB8C8-560F-4514-BCE3-80F5EDF4638F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F98E9E-E425-4F9B-BCB7-D26F0BE4C0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F98E9E-E425-4F9B-BCB7-D26F0BE4C0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F98E9E-E425-4F9B-BCB7-D26F0BE4C0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F98E9E-E425-4F9B-BCB7-D26F0BE4C0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35748697-140E-4618-B858-82B686FFE3F2}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
