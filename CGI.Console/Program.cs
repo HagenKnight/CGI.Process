@@ -6,6 +6,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        #region Pregunta # 15
+        /*
         Program p = new Program();
         triangulo triangulo = new triangulo();
 
@@ -17,6 +19,22 @@ internal class Program
         float area2 = triangulo2.altura * triangulo2.baseT / 2;
         Console.WriteLine($"Área triángulo 1 = {triangulo.altura} * {triangulo.baseT} / 2 = {area1}");
         Console.WriteLine($"Área triángulo 2 = {triangulo2.altura} * {triangulo2.baseT} / 2 = {area2}");
+        */
+        #endregion
+
+        #region Pregunta # 17
+
+        Persona usuario = new Persona
+        {
+            Nombre = "Giovanni García",
+            Edad = 41,
+            Peso = 68.5f
+        };
+        usuario.CambiaNombre();
+        Console.WriteLine($"{usuario.Nombre}");
+        Console.WriteLine($"{usuario.Calcula()}");
+
+        #endregion
 
     }
 
@@ -27,7 +45,7 @@ internal class Program
         {
             altura = _triangulo.altura * 0.9f
         };
-        nuevoTriangulo.baseT = (_triangulo.altura  * _triangulo.baseT) / nuevoTriangulo.altura;
+        nuevoTriangulo.baseT = (_triangulo.altura * _triangulo.baseT) / nuevoTriangulo.altura;
         return nuevoTriangulo;
     }
 }
