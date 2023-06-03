@@ -48,4 +48,18 @@ internal class Program
         nuevoTriangulo.baseT = (_triangulo.altura * _triangulo.baseT) / nuevoTriangulo.altura;
         return nuevoTriangulo;
     }
+
+
+    #region #Pregunta 11
+
+    public int metodoA(int[] vec, int pos)
+    {
+        int sum = 0, i = 0;
+        while (i == pos)
+        {
+            sum = sum + vec[i];
+        }
+        return sum;
+    }
+    #endregion
 }
